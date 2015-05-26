@@ -8,9 +8,15 @@ using namespace EDDIE_KAIGER;
 
 int main(int argc, char** argv) {
 
-	Node<int> head;
-	head.set_data(20);
+	Node<int>* head = new Node<int>(20);
+	LinkedList<int> list;
 
-	printf("%d\n", head.data());
+	// Node<int>* second = new Node<int>(30);
+	list.append(30);
+	list.append(50);
+	list.append(60);
+	list.append(70);
+
+	list.print();
 
 }

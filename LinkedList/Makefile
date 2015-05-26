@@ -1,2 +1,2 @@
 all:
-	gcc main.cpp -o linkedList
+	g++ main.cpp -o linkedList
