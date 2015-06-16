@@ -1,4 +1,4 @@
-//	Header for a node in a linked list.
+//	Header for a node in a singly-linked list.
 //	Copyright © 2015 Eddie Kaiger
 
 #ifndef EDDIE_KAIGER_NODE
