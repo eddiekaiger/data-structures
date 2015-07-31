@@ -25,4 +25,6 @@ int main(int argc, char** argv) {
 	list.print();
 
 	printf("Size: %lu\n", list.size());
+
+	return 0;
 }
